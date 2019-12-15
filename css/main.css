@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900i&display=swap');
+
+html * {
+    margin: 0px;
+}
+
+.nav a {
+    color: white;
+}
+
+.second-Nav a {
+    color: black !important;
+}
+
+.top-image {
+    height: 825px;
+    background: url('../images/Top-Image.jpg');
+    background: contain;
+    background-position: center;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.top-image .logo {
+
+    transform: translate(0, 8px);
+    display: flex;
+    margin-right: 100px;
+
+}
+
+.top-image .nav .text {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, 4px);
+    height: 13.93px;
+    width: 196.15px;
+    color: white;
+    position: relative;
+    text-decoration: underline;
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+
+}
+
+.second-Nav {
+    display: block;
+    height: 75px;
+    background: white;
+    background: cover;
+}
+
+.second-Nav .nav {
+    height: 75px;
+}
+
+.second-Nav .nav .text {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, -4px);
+    height: 13.93px;
+    width: 196.15px;
+    color: black;
+    position: relative;
+    text-decoration: underline;
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+
+}
+
+.second-Nav .logo {
+    height: 43px;
+}
+
+.History-Image {
+    height: 710px;
+    background: url('../images/History-Image.jpg');
+    background: cover;
+    background-position: center;
+
+}
+
+.History-Image-Bottom {
+    height: 193px;
+    background: url('../images/Hisotry-Image-Bottom.jpg');
+    background: cover;
+    background-position: center;
+
+}
+
+.Part-2 {
+    height: 180px;
+    background: url('../images/climb.jpg');
+    background: cover;
+    background-position: center;
+
+}
+
+.mountain-tabs {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background: url('../images/moutain-tabs.jpg');
+    background: cover;
+    background-position: center;
+
+}
+
+.tab-container {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald';
+    text-decoration: underline;
+
+
+}
+
+#m1,
+#m2 {
+    font-size: 15pt;
+    padding: 5px 20px 5px 20px;
+
+
+}
+
+#m1:hover,
+#m2:hover {
+    cursor: pointer;
+}
+
+.tab {
+    height: 546px;
+    background-image: url('../images/tab.jpg');
+    background: cover;
+    background-position: center;
+
+
+}
+
+.footer {
+    height: 74px;
+    background: url('../images/footer.jpg');
+    background: cover;
+    background-position: center;
+
+}
+
+.carosel {
+    width: 975px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+
+}
+
+#carosel-container {
+
+    display: grid;
+    align-content: center;
+    grid-auto-flow: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.116), rgba(0, 0, 8, 0.281));
+
+}
+
+
+.arrow {
+    align-self: center;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
